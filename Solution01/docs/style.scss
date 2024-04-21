@@ -1,0 +1,72 @@
+@import "normalise";
+@import "boilerplate";
+
+body {
+    @extend %Center;
+    height: 100vh;
+    background-color: #d5e1ef;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    .wrapper {
+        background-color: #fff;
+        padding: 1.5rem;
+        border-radius: 2rem;
+
+        .qr-code {
+            padding: 6.5rem;
+            border-radius: 1.25rem;
+            background-color: #2c7dfa;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                position: relative;
+                z-index: 1;
+            }
+
+            &::before {
+                content: "";
+                background-color: #3685ff;
+                width: 35rem;
+                height: 35rem;
+                border-radius: 50%;
+                position: absolute;
+                top: -1rem;
+                left: 2.5rem;
+                transform: translate(-50%, -50%);
+            }
+
+            &::after {
+                content: "";
+                background-color: #3685ff;
+                width: 25.5rem;
+                height: 25.5rem;
+                border-radius: 50%;
+                position: absolute;
+                bottom: -4rem;
+                right: 2rem;
+                transform: translate(50%, 50%);
+            }
+        }
+
+        .text {
+            text-align: center;
+
+            h1 {
+                font-size: 2.15rem;
+                font-weight: 700;
+                color: #1f314f;  
+                margin-block: 2.5rem 1.5rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                font-weight: 400;
+                color: #7d889e;
+                margin-bottom: 2.5rem;
+            }
+        }
+    }
+}

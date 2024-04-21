@@ -1,0 +1,106 @@
+@import "styles/normalise";
+@import "styles/boilerplate";
+
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+
+    main {
+        background-color: hsl(0, 0%, 8%);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 2.5rem;
+
+        .profile {
+            background-color: hsl(0, 0%, 12%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2.5rem;
+            border-radius: 1.2rem;
+            width: 100%;
+            max-width: 385px;
+
+            img {
+                border-radius: 50%;
+                width: 8.75rem;
+                cursor: pointer;
+                transition: all 0.2s;
+
+                &:hover {
+                    transform: scale(110%);
+                    outline: 2px solid hsl(75, 94%, 57%);
+                    outline-offset: 3px;
+                }
+
+                &:focus {
+                    transform: scale(110%);
+                    outline: 2px solid hsl(75, 94%, 57%);
+                    outline-offset: 3px;
+                }
+            }
+
+            h1 {
+                color: #fff;
+                font-size: 2.5rem;
+                margin-block: 2.85rem 1rem;
+                font-weight: 500;
+            }
+
+            span {
+                color: hsl(75, 94%, 57%);
+                font-size: 1.4rem;
+                font-weight: 600;
+                margin-bottom: 2.75rem;
+            }
+
+            p {
+                color: #ccc;
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-bottom: 2.5rem;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                width: 100%;
+                text-align: center;
+
+                a {
+                    background-color: hsl(0, 0%, 20%);
+                    color: #fff;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    border-radius: 0.85rem;
+                    padding-block: 1.5rem;
+                    transition: all 0.2s;
+
+                    &:hover {
+                        background-color: hsl(75, 94%, 57%);
+                        color: #000;
+                    }
+
+                    &:focus {
+                        background-color: hsl(75, 94%, 57%);
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (width >= 425px) {
+    .profile {
+        padding: 4rem !important;
+    }
+}

@@ -1,0 +1,122 @@
+@import "styles/normalise";
+@import "styles/boilerplate";
+
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: hsl(47, 88%, 63%);
+
+        .blog {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 1.75rem;
+            border: 1px solid hsl(0, 0%, 0%);
+            box-shadow: #000 0.75rem 0.75rem 0 0;
+            max-width: 350px;
+
+            .blog-image {
+                object-fit: cover;
+                border-radius: 1.25rem;
+                margin-bottom: 2.1rem;
+            }
+
+            .blog-tag {
+                background-color: hsl(47, 88%, 63%);
+                font-weight: 800;
+                font-size: 1.3rem;
+                padding: 0.55rem 1.15rem;
+                border-radius: 0.35rem;
+                margin-bottom: 1.25rem;
+                cursor: pointer;
+                transition: all 0.2s;
+
+                &:hover {
+                    transform: scale(120%) translateX(7.5%);
+                }
+
+                &:focus {
+                    transform: scale(120%) translateX(7.5%);
+                }
+            }
+
+            .blog-date {
+                font-size: 1.3rem;
+                font-weight: 500;
+                margin-bottom: 1.65rem;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+                font-weight: 800;
+                margin-top: 0;
+                margin-bottom: 1.5rem;
+                cursor: pointer;
+                transition: all 0.2s;
+
+                &:hover {
+                    color: hsl(47, 88%, 63%);
+                }
+
+                &:focus {
+                    color: hsl(47, 88%, 63%);
+                }
+            }
+
+            p {
+                color: hsl(0, 0%, 50%);
+                font-size: 1.45rem;
+                font-weight: 500;
+                margin-bottom: 2rem;
+                line-height: 2.2rem;
+            }
+
+            .blog-author {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                img {
+                    max-width: 2.95rem;
+                }
+
+                span {
+                    font-size: 1.3rem;
+                    font-weight: 800;
+                    cursor: pointer;
+                    transition: all 0.2s;
+
+                    &:hover {
+                        color: hsl(47, 88%, 63%);
+                    }
+
+                    &:focus {
+                        color: hsl(47, 88%, 63%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (width <= 400px) {
+    .blog {
+        max-width: 325px !important;
+    }
+
+    .blog-image {
+        height: 20rem;
+    }
+}
