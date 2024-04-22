@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: "Inter";
-    src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
 
     main {
         background-color: hsl(0, 0%, 8%);
@@ -17,7 +17,7 @@ body {
         justify-content: center;
         padding-inline: 2.5rem;
 
-        .profile {
+        article {
             background-color: hsl(0, 0%, 12%);
             display: flex;
             flex-direction: column;
@@ -30,7 +30,7 @@ body {
 
             img {
                 border-radius: 50%;
-                width: 8.75rem;
+                width: 8.8rem;
                 cursor: pointer;
                 transition: all 0.2s;
 
@@ -49,29 +49,31 @@ body {
 
             h1 {
                 color: #fff;
-                font-size: 2.5rem;
-                margin-block: 2.85rem 1rem;
-                font-weight: 500;
+                font-size: 23.25px;
+                letter-spacing: 0.5px;
+                margin-block: 2.85rem 1.1rem;
+                font-weight: 600;
             }
-
+            
             span {
                 color: hsl(75, 94%, 57%);
+                letter-spacing: 0.15px;
                 font-size: 1.4rem;
                 font-weight: 600;
-                margin-bottom: 2.75rem;
+                margin-bottom: 2.9rem;
             }
 
             p {
                 color: #ccc;
-                font-size: 1.5rem;
+                font-size: 1.4rem;
                 font-weight: 400;
-                margin-bottom: 2.5rem;
+                margin-bottom: 2.65rem;
             }
 
             .links {
                 display: flex;
                 flex-direction: column;
-                gap: 1.5rem;
+                gap: 1.6rem;
                 width: 100%;
                 text-align: center;
 
@@ -79,9 +81,10 @@ body {
                     background-color: hsl(0, 0%, 20%);
                     color: #fff;
                     font-size: 1.4rem;
+                    letter-spacing: 0.15px;
                     font-weight: 600;
                     border-radius: 0.85rem;
-                    padding-block: 1.5rem;
+                    padding-block: 1.5rem 1.4rem;
                     transition: all 0.2s;
 
                     &:hover {
@@ -100,7 +103,7 @@ body {
 }
 
 @media screen and (width >= 425px) {
-    .profile {
+    article {
         padding: 4rem !important;
     }
 }

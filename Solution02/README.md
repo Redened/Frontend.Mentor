@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](../Screenshots/Solution02.png)
+![](../Screenshots/Solution02.png)
 
 ### What I learned
 
@@ -23,7 +23,7 @@ You can make HTML elements TAB focusable using the "tabindex" attribute.
 
 tabindex="0" will adhere to DOM order of elements when focusing.
 
-tabindex="1", tabindex="2", tabindex="3"... will force the order according to the attribute value. 
+tabindex="1", tabindex="2", tabindex="3"... will force the order according to the attribute value.
 (while also forcing the first focus to be the element with value "1", bypassing other elements that could also be focused before it.)
 
 ```html

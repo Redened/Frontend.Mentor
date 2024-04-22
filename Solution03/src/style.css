@@ -234,10 +234,10 @@ summary,
 
 @font-face {
   font-family: "Inter";
-  src: url(assets/fonts/Inter-VariableFont_slntwght.ttf);
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
 body main {
   background-color: hsl(0, 0%, 8%);
@@ -247,7 +247,7 @@ body main {
   justify-content: center;
   padding-inline: 2.5rem;
 }
-body main .profile {
+body main article {
   background-color: hsl(0, 0%, 12%);
   display: flex;
   flex-direction: column;
@@ -258,67 +258,70 @@ body main .profile {
   width: 100%;
   max-width: 385px;
 }
-body main .profile img {
+body main article img {
   border-radius: 50%;
-  width: 8.75rem;
+  width: 8.8rem;
   cursor: pointer;
   transition: all 0.2s;
 }
-body main .profile img:hover {
+body main article img:hover {
   transform: scale(110%);
   outline: 2px solid hsl(75, 94%, 57%);
   outline-offset: 3px;
 }
-body main .profile img:focus {
+body main article img:focus {
   transform: scale(110%);
   outline: 2px solid hsl(75, 94%, 57%);
   outline-offset: 3px;
 }
-body main .profile h1 {
+body main article h1 {
   color: #fff;
-  font-size: 2.5rem;
-  margin-block: 2.85rem 1rem;
-  font-weight: 500;
+  font-size: 23.25px;
+  letter-spacing: 0.5px;
+  margin-block: 2.85rem 1.1rem;
+  font-weight: 600;
 }
-body main .profile span {
+body main article span {
   color: hsl(75, 94%, 57%);
+  letter-spacing: 0.15px;
   font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 2.75rem;
+  margin-bottom: 2.9rem;
 }
-body main .profile p {
+body main article p {
   color: #ccc;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.65rem;
 }
-body main .profile .links {
+body main article .links {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.6rem;
   width: 100%;
   text-align: center;
 }
-body main .profile .links a {
+body main article .links a {
   background-color: hsl(0, 0%, 20%);
   color: #fff;
   font-size: 1.4rem;
+  letter-spacing: 0.15px;
   font-weight: 600;
   border-radius: 0.85rem;
-  padding-block: 1.5rem;
+  padding-block: 1.5rem 1.4rem;
   transition: all 0.2s;
 }
-body main .profile .links a:hover {
+body main article .links a:hover {
   background-color: hsl(75, 94%, 57%);
   color: #000;
 }
-body main .profile .links a:focus {
+body main article .links a:focus {
   background-color: hsl(75, 94%, 57%);
   color: #000;
 }
 
 @media screen and (width >= 425px) {
-  .profile {
+  article {
     padding: 4rem !important;
   }
 }/*# sourceMappingURL=style.css.map */
