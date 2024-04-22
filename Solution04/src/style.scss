@@ -30,27 +30,21 @@ body {
             font-weight: 400;
             font-size: 3.65rem;
             line-height: 1;
-            margin-top: 0;
         }
 
         h2 {
             font-family: "YoungSerif", sans-serif;
             font-weight: 400;
-            font-size: 2.75rem;
+            font-size: 2.8rem;
             color: hsl(14, 45%, 36%);
-            margin-bottom: 2rem;
-        }
-
-        h3 {
-            font-size: 2rem;
-            font-weight: 600;
+            margin-block: 0.1rem 2.15rem;
         }
 
         p {
             display: inline;
             color: hsl(30, 10%, 34%);
             font-weight: 400;
-            line-height: 2.25rem;
+            line-height: 2.35rem;
         }
 
         span {
@@ -58,7 +52,7 @@ body {
         }
 
         li {
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.85rem;
 
             &:last-of-type {
                 margin-bottom: 0;
@@ -66,7 +60,7 @@ body {
         }
 
         ul {
-            padding-left: 0.75rem;
+            padding-left: 0.65rem;
 
             li {
                 display: flex;
@@ -75,7 +69,7 @@ body {
                 &:before {
                     content: "•";
                     font-size: 15pt;
-                    margin-right: 2.5rem;
+                    margin-right: 2.65rem;
                     color: hsl(14, 45%, 36%);
                 }
             }
@@ -89,13 +83,19 @@ body {
             li {
                 display: flex;
                 align-items: first baseline;
+                justify-content: space-between;
                 counter-increment: ordered-list-item;
 
                 &:before {
                     content: counter(ordered-list-item) ".";
                     font-weight: 700;
-                    margin-right: 2rem;
+                    width: fit-content;
                     color: hsl(14, 45%, 36%);
+                }
+
+                p {
+                    width: 95%;
+                    line-height: 1.5;
                 }
             }
         }
@@ -106,13 +106,17 @@ body {
         }
 
         .highlighted-section {
-            padding: 2.75rem;
+            margin-top: 0.1rem;
+            padding: 2.45rem 2.75rem 2.85rem;
             background-color: hsl(330, 100%, 98%);
-            border-radius: 1rem;
+            border-radius: 1.25rem;
 
             > :first-child {
                 color: hsl(332, 51%, 32%) !important;
-                margin-bottom: 1.5rem;
+                margin-bottom: 1.65rem;
+                font-family: "Outfit";
+                font-size: 2rem;
+                font-weight: 600;
             }
 
             li::before {
@@ -134,18 +138,18 @@ body {
             > div {
                 display: flex;
                 align-items: center;
-                padding-block: 1.2rem;
+                padding-block: 1.2rem 1.1rem;
 
                 > * {
                     width: 50%;
                 }
 
                 > :first-child {
-                    padding-left: 3.25rem;
+                    padding-left: 3.2rem;
                 }
 
                 > :last-child {
-                    padding-left: 1rem;
+                    padding-left: 0.75rem;
                 }
             }
 
@@ -172,12 +176,11 @@ body {
         .recipe {
             max-width: 735px;
             padding: 4rem;
-            border-radius: 2rem;
+            border-radius: 2.25rem;
             background-color: #fff;
 
             .recipe-image {
-                margin-bottom: 3.75rem;
-                border-radius: 1rem;
+                border-radius: 1.25rem;
                 overflow: hidden;
             }
 
@@ -189,7 +192,6 @@ body {
 
     h1 {
         font-size: 4rem !important;
-        margin-bottom: 2rem !important;
-        line-height: 1.15 !important;
+        margin-block: 4rem 2.35rem;
     }
 }

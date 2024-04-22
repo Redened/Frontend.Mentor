@@ -1,38 +1,15 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - "Recipe Page" solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the ["Recipe Page" challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). 
 
-## Table of contents
+## Links
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
+-   Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-html-scss-v5P20SdLiz](https://www.frontendmentor.io/solutions/recipe-page-html-scss-v5P20SdLiz)
+-   Live Site URL: [https://redened.github.io/Frontend.Mentor/Solution04/src/](https://redened.github.io/Frontend.Mentor/Solution04/src/)
 
 ### Screenshot
 
-![](Desktop.png)
-
-### Links
-
--   Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-html-scss-v5P20SdLiz](https://www.frontendmentor.io/solutions/recipe-page-html-scss-v5P20SdLiz)
--   Live Site URL: [https://redened.github.io/Frontendmentor-Project04/src/](https://redened.github.io/Frontendmentor-Project04/src/)
-
-## My process
-
-### Built with
-
--   Semantic HTML5 markup
--   SCSS
--   Flexbox
--   Mobile-first workflow
+![](../Screenshots/Solution04.png)
 
 ### What I learned
 
