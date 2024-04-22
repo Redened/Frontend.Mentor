@@ -246,91 +246,92 @@ body main {
   height: 100vh;
   background-color: hsl(47, 88%, 63%);
 }
-body main .blog {
+body main article {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 2.05rem;
+  max-width: 347px;
+  border-radius: 1.65rem;
   background-color: #fff;
-  padding: 2rem;
-  border-radius: 1.75rem;
   border: 1px solid hsl(0, 0%, 0%);
   box-shadow: #000 0.75rem 0.75rem 0 0;
-  max-width: 350px;
 }
-body main .blog .blog-image {
+body main article .article-image {
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 1.25rem;
+  border-radius: 1.15rem;
   margin-bottom: 2.1rem;
 }
-body main .blog .blog-tag {
+body main article .article-tag {
   background-color: hsl(47, 88%, 63%);
   font-weight: 800;
   font-size: 1.3rem;
-  padding: 0.55rem 1.15rem;
-  border-radius: 0.35rem;
-  margin-bottom: 1.25rem;
+  padding: 0.5rem 1.1rem 0.6rem;
+  border-radius: 0.45rem;
+  margin-bottom: 1.3rem;
   cursor: pointer;
   transition: all 0.2s;
 }
-body main .blog .blog-tag:hover {
+body main article .article-tag:hover {
   transform: scale(120%) translateX(7.5%);
 }
-body main .blog .blog-tag:focus {
+body main article .article-tag:focus {
   transform: scale(120%) translateX(7.5%);
 }
-body main .blog .blog-date {
-  font-size: 1.3rem;
+body main article .article-date {
+  font-size: 12.65px;
   font-weight: 500;
   margin-bottom: 1.65rem;
 }
-body main .blog h1 {
-  font-size: 2.2rem;
+body main article h1 {
+  font-size: 21.85px;
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 1.5rem;
   cursor: pointer;
   transition: all 0.2s;
 }
-body main .blog h1:hover {
+body main article h1:hover {
   color: hsl(47, 88%, 63%);
 }
-body main .blog h1:focus {
+body main article h1:focus {
   color: hsl(47, 88%, 63%);
 }
-body main .blog p {
+body main article p {
   color: hsl(0, 0%, 50%);
   font-size: 1.45rem;
   font-weight: 500;
   margin-bottom: 2rem;
   line-height: 2.2rem;
 }
-body main .blog .blog-author {
+body main article .article-author {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.1rem;
 }
-body main .blog .blog-author img {
-  max-width: 2.95rem;
+body main article .article-author img {
+  width: 2.9rem;
+  height: 2.9rem;
 }
-body main .blog .blog-author span {
-  font-size: 1.3rem;
+body main article .article-author span {
+  font-size: 12.75px;
   font-weight: 800;
   cursor: pointer;
   transition: all 0.2s;
 }
-body main .blog .blog-author span:hover {
+body main article .article-author span:hover {
   color: hsl(47, 88%, 63%);
 }
-body main .blog .blog-author span:focus {
+body main article .article-author span:focus {
   color: hsl(47, 88%, 63%);
 }
 
 @media screen and (width <= 400px) {
-  .blog {
+  article {
     max-width: 325px !important;
   }
-  .blog-image {
+  .article-image {
     height: 20rem;
   }
 }/*# sourceMappingURL=style.css.map */

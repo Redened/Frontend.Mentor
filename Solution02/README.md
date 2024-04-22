@@ -11,11 +11,11 @@ Users should be able to:
 ## Links
 
 -   Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-html-scss-7NobMfhz2F](https://www.frontendmentor.io/solutions/blog-preview-card-html-scss-7NobMfhz2F)
--   Live Site URL: [https://redened.github.io/Frontendmentor-Project02/src/](https://redened.github.io/Frontend.Mentor/Solution02/src)
+-   Live Site URL: [https://redened.github.io/Frontend.Mentor/Solution02/src/](https://redened.github.io/Frontend.Mentor/Solution02/src/)
 
 ### Screenshot
 
-![Desktop](Desktop.png)
+![Desktop](../Screenshots/Solution02.png)
 
 ### What I learned
 

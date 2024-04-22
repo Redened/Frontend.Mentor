@@ -16,30 +16,30 @@ body {
         height: 100vh;
         background-color: hsl(47, 88%, 63%);
 
-        .blog {
+        article {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            padding: 2.05rem;
+            max-width: 347px;
+            border-radius: 1.65rem;
             background-color: #fff;
-            padding: 2rem;
-            border-radius: 1.75rem;
             border: 1px solid hsl(0, 0%, 0%);
             box-shadow: #000 0.75rem 0.75rem 0 0;
-            max-width: 350px;
 
-            .blog-image {
+            .article-image {
                 object-fit: cover;
-                border-radius: 1.25rem;
+                border-radius: 1.15rem;
                 margin-bottom: 2.1rem;
             }
 
-            .blog-tag {
+            .article-tag {
                 background-color: hsl(47, 88%, 63%);
                 font-weight: 800;
                 font-size: 1.3rem;
-                padding: 0.55rem 1.15rem;
-                border-radius: 0.35rem;
-                margin-bottom: 1.25rem;
+                padding: 0.5rem 1.1rem 0.6rem;
+                border-radius: 0.45rem;
+                margin-bottom: 1.3rem;
                 cursor: pointer;
                 transition: all 0.2s;
 
@@ -52,14 +52,15 @@ body {
                 }
             }
 
-            .blog-date {
-                font-size: 1.3rem;
+            .article-date {
+                font-size: 12.65px;
                 font-weight: 500;
                 margin-bottom: 1.65rem;
             }
 
             h1 {
-                font-size: 2.2rem;
+                // font-size: 2.15rem;
+                font-size: 21.85px;
                 font-weight: 800;
                 margin-top: 0;
                 margin-bottom: 1.5rem;
@@ -83,17 +84,18 @@ body {
                 line-height: 2.2rem;
             }
 
-            .blog-author {
+            .article-author {
                 display: flex;
                 align-items: center;
-                gap: 1rem;
+                gap: 1.1rem;
 
                 img {
-                    max-width: 2.95rem;
+                    width: 2.9rem;
+                    height: 2.9rem;
                 }
 
                 span {
-                    font-size: 1.3rem;
+                    font-size: 12.75px;
                     font-weight: 800;
                     cursor: pointer;
                     transition: all 0.2s;
@@ -112,11 +114,11 @@ body {
 }
 
 @media screen and (width <= 400px) {
-    .blog {
+    article {
         max-width: 325px !important;
     }
 
-    .blog-image {
+    .article-image {
         height: 20rem;
     }
 }
