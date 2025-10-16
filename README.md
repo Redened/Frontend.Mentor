@@ -10,7 +10,7 @@
 04. [Solution](https://www.frontendmentor.io/solutions/recipe-page-html-scss-v5P20SdLiz) [Live Preview](https://redened.github.io/Frontend.Mentor/Solution04/src) - Recipe Page
 
 
-# Live Previews
+# Independent Frontend Projects
 
 01. [Live Preview](https://redened.github.io/Frontend.Mentor/Independent-Projects/Construction) - Construction
 02. [Live Preview](https://redened.github.io/Frontend.Mentor/Independent-Projects/Profile-Page) - Profile Page
