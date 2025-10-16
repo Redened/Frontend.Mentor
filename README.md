@@ -8,3 +8,10 @@
 02. [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-html-scss-7NobMfhz2F) [Live Preview](https://redened.github.io/Frontend.Mentor/Solution02/src) - Blog Preview Card
 03. [Solution](https://www.frontendmentor.io/solutions/social-links-profile-html-scss-aykKgGgehL) [Live Preview](https://redened.github.io/Frontend.Mentor/Solution03/src) - Social Links Profile
 04. [Solution](https://www.frontendmentor.io/solutions/recipe-page-html-scss-v5P20SdLiz) [Live Preview](https://redened.github.io/Frontend.Mentor/Solution04/src) - Recipe Page
+
+
+# Live Previews
+
+01. [Live Preview](https://redened.github.io/Frontend.Mentor/Independent-Projects/Construction) - Construction
+02. [Live Preview](https://redened.github.io/Frontend.Mentor/Independent-Projects/Profile-Page) - Profile Page
+03. [Live Preview](https://redened.github.io/Frontend.Mentor/Independent-Projects/Profile-Page-2) - Profile Page 2

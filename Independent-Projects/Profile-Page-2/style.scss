@@ -1,0 +1,341 @@
+@import "styles/normalise";
+@import "styles/boilerplate";
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    background-color: hsl(0, 0%, 95%);
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 6rem;
+
+        .header-left {
+            display: flex;
+            align-items: flex-end;
+            gap: 1.25rem;
+
+            .header-icon {
+                background-color: hsl(41, 98%, 47%);
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+            }
+
+            .header-name {
+                font-size: 2.25rem;
+                font-weight: bolder;
+                color: hsl(0, 0%, 5%);
+            }
+
+            .header-title {
+                color: hsl(0, 0%, 20%);
+                margin-bottom: 2px;
+            }
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 1.75rem;
+
+            a {
+                color: hsl(0, 0%, 25%);
+            }
+
+            div {
+                height: 100%;
+                width: 0.5px;
+                background-color: hsl(0, 0%, 0%);
+            }
+        }
+    }
+
+    main.page-home {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+
+        .main-left {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 50rem;
+        }
+
+        .main-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 2.5rem;
+
+            h1 {
+                position: relative;
+                right: 8px;
+                font-size: 10rem;
+                margin: 0;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                line-height: 25px;
+                letter-spacing: 1px;
+                width: 40rem;
+            }
+
+            .main-buttons {
+                display: flex;
+                justify-content: space-between;
+                gap: 1.5rem;
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    right: 10px;
+                    width: 15rem;
+                    height: 15rem;
+                    border-radius: 50%;
+                    border: 1px solid hsl(0, 0%, 25%);
+                    font-size: 2.25rem;
+                    font-weight: bolder;
+                }
+
+                .button-resume {
+                    background-color: #eea302;
+                }
+                .button-projects {
+                    background-color: #ff3b25;
+                }
+                .button-contact {
+                    background-color: #80d8da;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 5rem 7.5rem;
+        margin-inline: 5rem;
+        border-top: 1px solid hsl(0, 0%, 25%, 0.5);
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+
+            span:nth-of-type(1) {
+                font-weight: 600;
+                font-size: 2rem;
+            }
+
+            span:nth-of-type(2) {
+                color: hsl(0, 0%, 25%);
+            }
+        }
+
+        .copyright {
+            // margin-right: 50px;
+
+            span {
+                color: hsl(0, 0%, 25%) !important;
+                font-weight: 100 !important;
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+
+    main.page-resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto;
+        max-width: 1150px;
+        gap: 7.5rem;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: 0.75px;
+            margin: 0;
+            align-self: flex-start;
+        }
+
+        h2 {
+            font-weight: 700;
+        }
+
+        section {
+            display: flex;
+
+            > div {
+                width: 50%;
+
+                > div {
+                    display: flex;
+                    gap: 4rem;
+
+                    > div:nth-of-type(1) {
+                        width: 30%;
+                        text-align: right;
+
+                        span {
+                            font-weight: 400;
+                        }
+                    }
+
+                    > div:nth-of-type(2) {
+                        width: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1rem;
+
+                        span {
+                            font-weight: 600;
+                            font-size: 2rem;
+                            line-height: 20px;
+                        }
+
+                        p {
+                            color: hsl(0, 0%, 25%);
+                            letter-spacing: 0.5px;
+                            line-height: 27.5px;
+                        }
+                    }
+                }
+            }
+
+            > div:nth-of-type(2) {
+                display: flex;
+                flex-direction: column;
+                gap: 5rem;
+            }
+        }
+
+        hr {
+            width: 95vw;
+            border: 1px solid hsl(0, 0%, 75%);
+        }
+    }
+
+    main.page-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto;
+        max-width: 1150px;
+        gap: 10rem;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: 0.75px;
+            margin: 0;
+            align-self: flex-start;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 2.75rem;
+            margin: 0;
+        }
+
+        p {
+            color: hsl(0, 0%, 25%);
+            line-height: 27.5px;
+        }
+
+        section {
+            display: flex;
+            margin-bottom: 5rem;
+            gap: 17.5rem;
+
+            div:nth-of-type(1) {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+
+            div:nth-of-type(2) {
+                width: 50%;
+            }
+        }
+    }
+
+    main.page-contact {
+        display: flex;
+        margin-inline: auto;
+        max-width: 1150px;
+
+        .form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                display: block;
+                margin-bottom: 1.25rem;
+            }
+
+            input {
+                margin-bottom: 2.5rem;
+                background-color: hsl(0, 0%, 95%);
+                border: 1px solid hsl(0, 0%, 25%);
+                padding: 1rem;
+            }
+
+            input[name=message] {
+                height: 100px;
+            }
+
+            > div {
+                display: flex;
+                gap: 2.5rem;
+            }
+
+            button {
+                background-color: #eea302;
+                border: 1px solid hsl(0, 0%, 20%);
+                border-radius: 2.5rem;
+                padding: 1.25rem 1rem;
+                font-size: 2rem;
+                font-weight: bolder;
+            }
+        }
+
+        // svg {
+        //     width: 100px;
+        //     height: 100px;
+        //     position: relative;
+        //     animation: clock 2.5s 1s infinite forwards;
+
+        //     @keyframes clock {
+        //         0% {left: 0;}
+        //         5% {left: 20px;}
+        //         10% {left: -10px}
+        //         15% {left: 20px}
+        //         20% {left: -20px}
+        //         50% {left: 100px}
+        //         55% {left: -100px}
+        //         60% {left: 200px}
+        //         65% {left: -200px}
+        //         70% {left: 300px}
+        //         75% {left: -300px}
+        //         100% {left: 0;}
+        //     }
+        // }
+    }
+}
